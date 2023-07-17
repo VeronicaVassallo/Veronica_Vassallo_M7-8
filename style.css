@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    
+}
+main{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body, header{
+    background-color: black;
+}
+
+.slider{
+    margin-left: 2.5rem;
+}
+
+a.nav-link{
+    color: white;
+}
+nav img{
+    width: 10%;
+}
+.user{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.user img{
+    width: 100%;
+}
+
+
+nav div.position-absolute{
+    z-index: 2;
+    top: 16%;
+    right: 4%;
+    
+}
+a.nav-link:hover{
+    color: grey;
+    background-color: rgb(26, 26, 26);
+}
+
+section div.nav-item.dropdown.mx-2{
+    width: 25%;
+}
+footer button{
+    background-color: black;
+
+}
+footer{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+footer i{
+    font-size: x-large;
+}
+
+.carousel-inner{
+    overflow: visible;
+}
+
+div.col-4.col-lg-2{
+    transition: transform 1s linear 0.2s;
+}
+
+div.col-4.col-lg-2:hover{
+    position: relative;
+    z-index: 5;
+    transform: scale(1.5, 1.5);
+    
+}
+
+.hightMain{
+    height: 600px;
+
+}
+.slider{
+    transition: opacity 2s ease-in 0.5s;
+}
+
+@media screen and (max-width: 992px) {
+    nav div.position-absolute {
+      right: 20%;
+    }
+  }
+
+ 
